@@ -1,0 +1,24 @@
+
+// Filename: color.ps
+
+in lowp vec3 outColor;
+in lowp vec2 texCoord;
+in lowp vec3 outNormal;
+in vec3 weight;
+
+out lowp vec4 outputColor;
+
+uniform sampler2D 	shaderTexture;
+uniform lowp vec3 	lightDirection;
+
+void main(void)
+{
+
+	lowp vec4 texturColor = vec4(0.4 + weight.x, 0.4 + weight.y, 0.4 + weight.z , 1.0); 
+
+	lowp vec3 lightDir = vec3(-1, -1 ,0);//-lightDirection;
+	lowp float intensity = clamp(dot(outNormal, lightDir), 0.0f, 1.0f);
+	intensity = clamp(intensity, 0.0f, 1.0f);	
+	
+	outputColor = (intensity * texturColor) + vec4(0.2, 0.2, 0.2, 1);
+}

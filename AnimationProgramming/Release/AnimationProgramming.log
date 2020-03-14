@@ -1,0 +1,11 @@
+﻿  Animation.cpp
+  AnimationProgramming.cpp
+  Generating code
+  0 of 297 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+Animation.obj : warning LNK4020: a type record in 'c:\users\victo\onedrive\bureau\animation\gpm2_jore_v\animationprogramming\animationprogramming\release\vc142.pdb' is corrupted; some symbols and types may not be accessible from the debugger
+AnimationProgramming.obj : warning LNK4020: a type record in 'c:\users\victo\onedrive\bureau\animation\gpm2_jore_v\animationprogramming\animationprogramming\release\vc142.pdb' is corrupted; some symbols and types may not be accessible from the debugger
+stdafx.obj : warning LNK4020: a type record in 'c:\users\victo\onedrive\bureau\animation\gpm2_jore_v\animationprogramming\animationprogramming\release\vc142.pdb' is corrupted; some symbols and types may not be accessible from the debugger
+  AnimationProgramming.vcxproj -> C:\Users\victo\OneDrive\Bureau\Animation\GPM2_JORE_V\AnimationProgramming\Release\AnimationProgramming.exe
